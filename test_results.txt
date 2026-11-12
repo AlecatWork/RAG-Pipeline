@@ -1,0 +1,63 @@
+Ingested 36 document chunks.
+
+##### TEST TYPE: Answerable from docs #####
+
+============================================================
+Question: What is Equivalent Exchange in Fullmetal Alchemist?
+============================================================
+
+Retrieved 3 chunks:
+  [1] (dist: 1.0351) fmab.txt
+       Fullmetal Alchemist: Brotherhood is a 2009 anime adaptation of the manga written and illustrated by ...
+  [2] (dist: 1.1155) fmab.txt
+       Edward Elric is nicknamed the Fullmetal Alchemist and works as a State Alchemist for the military, w...
+  [3] (dist: 1.1569) fmab.txt
+       The central rule of alchemy in this world is Equivalent Exchange: to gain something, something of eq...
+
+Answer (streaming):
+
+Equivalent Exchange is the central rule of alchemy in the Fullmetal Alchemist universe. (fmab.txt)
+
+This principle is based on the concept of Equivalent Exchange, where to gain something, something of equal value must be lost. (fmab.txt) This rule shapes the series' themes of sacrifice, responsibility, and the consequences of playing with life and death.
+
+[Generated in 8.0s]
+
+##### TEST TYPE: Related but not in docs #####
+
+============================================================
+Question: Who composed the music for Spirited Away?
+============================================================
+
+Retrieved 3 chunks:
+  [1] (dist: 0.8782) ghibli.txt
+       Spirited Away, released in 2001, follows a ten-year-old girl named Chihiro who becomes trapped in a ...
+  [2] (dist: 1.2277) hist.txt
+       Neon Genesis Evangelion, which aired in 1995 and was directed by Hideaki Anno, reshaped the mecha ge...
+  [3] (dist: 1.3619) ghibli.txt
+       Studio Ghibli is a Japanese animation studio founded in 1985 by directors Hayao Miyazaki and Isao Ta...
+
+Answer (streaming):
+
+I don't have enough information to answer that based on the available documents.
+
+[Generated in 2.6s]
+
+##### TEST TYPE: Outside scope #####
+
+============================================================
+Question: How do I bake sourdough bread?
+============================================================
+
+Retrieved 3 chunks:
+  [1] (dist: 1.7964) hist.txt
+       Neon Genesis Evangelion, which aired in 1995 and was directed by Hideaki Anno, reshaped the mecha ge...
+  [2] (dist: 1.8078) note.txt
+       The international detective known only as L is brought in to catch Kira. L is eccentric, sits in an ...
+  [3] (dist: 1.8275) ghibli.txt
+       Studio Ghibli is a Japanese animation studio founded in 1985 by directors Hayao Miyazaki and Isao Ta...
+
+Answer (streaming):
+
+I don't have enough information to answer that based on the available documents.
+
+[Generated in 3.6s]
